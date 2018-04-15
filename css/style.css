@@ -1,0 +1,632 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url(../images/quan.png);
+}
+
+header {
+    background-color: #FFD338;
+    min-height: 100px;
+}
+
+.haeder_nav {}
+
+.haeder_nav ul li a {
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px !important;
+    transition: 1s;
+}
+
+.haeder_nav ul li a:hover {
+    background-color: #F05C5C;
+    border-radius: 15px;
+}
+
+.custom_drop {}
+
+.custom_drop a {
+    background: transparent !important;
+    border: none;
+}
+
+.drop2 {
+    color: white !important;
+    background: transparent !important;
+}
+
+.banner {
+    font-family: 'Dosis', sans-serif;
+    min-height: 780px;
+    background-image: url(../images/megh.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_header {
+    margin: 300px;
+}
+
+.banner_header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.banner_header p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1EC0FF;
+    letter-spacing: 4px;
+}
+
+.banner_footer {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.kid1 {
+    min-height: 800px;
+    padding: 100px 0px;
+}
+
+.kid1_header {}
+
+.kid1_header h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.kid1_header hr {
+    width: 250px;
+    border: 3px dashed white;
+}
+
+.kid1_content {
+    padding: 150px 0px;
+}
+
+.kid1_content h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.kid1_content hr {
+    width: 150px;
+    border: 1px dashed;
+    margin-left: 14px;
+    margin-top: -21px;
+}
+
+.kid1_content p {
+    font-family: 'Lato', sans-serif;
+    color: #3F3F3F;
+    font-size: 10px;
+}
+.kid1_img{
+    
+}
+.kid1_img001{
+    padding: 150px 0px;
+}
+.kid2 {
+    min-height: 850px;
+    background-image: url(../images/kid2.jpg);
+    padding: 70px 0px;
+}
+
+.kid2_header {
+    margin-top: 60px;
+}
+
+.kid2_header h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.kid2_header hr {
+    width: 150px;
+    border: 2px dashed white;
+}
+
+.img_box {
+    padding: 200px 0px;
+}
+
+.img1,
+img2,
+img3,
+img4 {}
+
+.img1 h2,
+.img2 h2,
+.img3 h2,
+.img4 h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.img1 p,
+.img2 p,
+.img3 p,
+.img4 p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.slider {
+    min-height: 870px;
+    padding: 100px 0;
+}
+
+.slider_header {}
+
+.slider_header h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.card {
+    min-height: height: 400px;
+}
+
+.card_img {}
+
+.card_header {
+    min-height: 20px;
+    background-color: #1EC0FF;
+}
+
+.card_header h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1EC0FF;
+}
+
+.card_text {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card_footer {
+    min-height: 10px;
+    background-color: #1EC0FF;
+    margin: 53px -1px 0px 0px;
+}
+
+.card_footer h1 {
+    margin: 7px 7px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    color: white;
+}
+
+.card_footer h2 {
+    margin: 7px 7px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    color: white;
+}
+
+.large_btnn {
+    margin-top: 50px;
+}
+
+.custom_btn1 {
+    background-color: #56D47E !important;
+}
+
+.moments {
+    min-height: 1000px;
+    background-image: url(../images/moments.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moments_header {
+    padding: 50px 0;
+}
+
+.moments_header h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.moments_header hr {
+    width: 200px;
+    border: 3px dashed white;
+}
+
+.moments_nav {}
+
+.moments_nav ul li a {
+    font-family: 'Dosis', sans-serif;
+    color: white !important;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px !important;
+}
+
+.img270 {}
+
+.img520 {}
+
+.img_ww {
+    border-radius: 70px;
+}
+
+.img_wx {
+    padding: 60px 450px;
+}
+
+.booster {
+    min-height: 1220px;
+    padding: 50px 0px;
+}
+
+.booster_head {}
+
+.booster_head h3 {
+    font-family: 'Lato', sans-serif;
+    color: #1EC0FF;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.booster_head h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.booster_head p {
+    font-family: 'Lato', sans-serif;
+    color: #1EC0FF;
+    font-size: 12px;
+}
+
+.booster_b {
+    margin-top: 40px;
+}
+
+.booster_b h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.booster_b hr {
+    width: 200px;
+    border: 2px dashed white;
+}
+
+.cmn_margin {
+    margin-left: 100px;
+}
+
+.b_img {
+    padding: 40px 0px;
+}
+
+.human_img {
+    border-radius: 30px;
+}
+
+.b_text {
+    margin-left: 50px;
+}
+
+.b_text h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1EC0FF;
+}
+
+.b_text h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.b_text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    margin: 25px;
+}
+
+.icons {
+    padding: 30px;
+}
+
+.icons h4 {}
+
+.award {
+    min-height: 420px;
+    background-color: #6E6E6E;
+    padding: 40px 0px;
+}
+
+.award_text {}
+
+.award_text h1 {
+    color: #57D07D;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.award_text hr {
+    width: 100px;
+    border: 2px dashed white;
+}
+
+.img_award {
+    padding: 80px;
+}
+
+.last1 {
+    min-height: 1240px;
+    padding: 100px 0;
+}
+
+.last1_text {
+    margin: 0px -50px;
+}
+
+.last1_text h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6E6E6E;
+    text-transform: uppercase;
+}
+
+.last1_text hr {
+    width: 150px;
+    border: 2px dashed white;
+    margin-left: 0px;
+}
+
+.last1_rightbar {
+    padding: 60px 0;
+}
+
+.rightbar_img {
+    margin: 25px 0px 0px -65px;
+}
+
+.last1_sidebar {
+     padding: 60px 0;
+}
+
+.last1_sidebar h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6E6E6E;
+    text-transform: uppercase;
+}
+
+.last1_sidebar hr {
+    width: 150px;
+    border: 2px dashed white;
+    margin-left: 0px;
+}
+
+.tik_img {
+    margin: 25px 0px 0px -50px;
+    padding: 25px 0px;
+}
+
+.tikx_img {
+    border-radius: 30px;
+    padding: 0px 10px 0px 0px;
+}
+
+.tik_text {
+    margin-left: 50px;
+    margin: -15px 0px 0px 0px;
+}
+
+.tik_text h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #001D26;
+}
+
+.tik_text hr {
+    width: 150px;
+    border: 1px dashed #1EC0FF;
+    margin: 0px 260px;
+}
+
+.tik_text h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    margin: 25px;
+}
+
+.tik_text p {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    margin: 25px;
+}
+
+.last2 {
+    min-height: 450px;
+    padding: 30px 0px;
+}
+
+.last2_1 {}
+
+.img_lo {
+    padding: 20px 0px;
+}
+
+.last2_1 h1 {
+    color: #001D26;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.last2_1 p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.last2_2 {
+    padding: 50px 10px;
+}
+
+.last2_2 h1 {
+    color: #FFD338;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.last2_2 hr {
+    width: 123px;
+    border: 1px dashed #FFD338;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.last2_img {}
+
+.imglast {
+    padding: 10px 7px;
+}
+
+.last2_3 {
+    padding: 50px 10px;
+}
+
+.last2_3 h1 {
+    color: #59D580;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.last2_3 hr {
+    width: 123px;
+    border: 1px dashed #59D580;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.last2_3 h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+}
+
+.last2_3 h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 11px;
+}
+
+.last2_3 p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
+}
+
+.last2_4 {
+    padding: 50px 10px;
+}
+
+.last2_4 h1 {
+    color: #F05C5C;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.last2_4 hr {
+    width: 180px;
+    border: 1px dashed #F05C5C;
+    margin-left: 0px;
+}
+
+.last2_4 h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+}
+
+.last_icon {}
+
+.icon1 {
+    margin: 10px 15px;
+}
+
+footer {
+    min-height: 70px;
+    background-color: #FFD338 !important;
+}
+
+.footer_nav {}
+.footer_nav ul li{
+    
+}
+.footer_nav ul li a {
+    color: white !important;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer_h2 {
+    margin-top: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    color: white !important;
+    margin-right: -80px;
+}
